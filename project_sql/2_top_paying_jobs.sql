@@ -25,7 +25,6 @@ with top_paying_jobs AS(
         salary_year_avg DESC
     LIMIT 10
 )
-
 SELECT 
     top_paying_jobs.*,
     skills
